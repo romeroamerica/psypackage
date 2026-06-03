@@ -7,8 +7,8 @@
 #' @export
 #'
 #' @examples
-#' greet_mean("America")
-#' greet_mean("America", loud = TRUE)
+#' greet_mean("America Romero")
+#' greet_mean("America Romero", loud = TRUE)
 greet_mean <- function(name, loud = FALSE) {
   msg <- paste0("Hello, ", name, "! Why are you here?")
   if (loud) toupper(msg) else msg

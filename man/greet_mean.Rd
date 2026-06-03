@@ -18,6 +18,6 @@ A character string containing the greeting.
 Greet someone by name, another version of greet
 }
 \examples{
-greet_mean("America")
-greet_mean("America", loud = TRUE)
+greet_mean("America Romero")
+greet_mean("America Romero", loud = TRUE)
 }
