@@ -3,4 +3,5 @@
 export(cohen_d)
 export(duel_outcome)
 export(greet)
+export(greet_mean)
 export(z_score)
