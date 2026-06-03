@@ -1,0 +1,13 @@
+Package: psypackage
+Title: My Package for my Data Science Course
+Version: 0.0.1
+Authors@R: 
+    person("America", "Romero", , "romeroamerica99@gmail.com", role = c("aut", "cre"))
+Description: I don't know what my package does yet!
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 8.0.0
+Depends: 
+    R (>= 3.5)
+LazyData: true
