@@ -2,22 +2,19 @@
 % Please edit documentation in R/greet.R
 \name{greet}
 \alias{greet}
-\title{Greet someone by name}
+\title{Greet the user with commentary based on the time!}
 \usage{
-greet(name, loud = FALSE)
+greet(name = "researcher")
 }
 \arguments{
 \item{name}{A character string. The name to greet.}
-
-\item{loud}{Logical. Should the greeting be uppercase? Default is FALSE.}
 }
 \value{
-A character string containing the greeting.
+A character string containing the greeting with some funny options based on time of day.
 }
 \description{
-Greet someone by name
+Greet the user with commentary based on the time!
 }
 \examples{
-greet("America")
-greet("America", loud = TRUE)
+greet(name = "America")
 }

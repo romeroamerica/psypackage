@@ -1,9 +1,9 @@
 Package: psypackage
-Title: My Package for my Data Science Course
-Version: 0.0.1
+Title: My Minihack Package for my Data Science Course
+Version: 0.1.1
 Authors@R: 
     person("America", "Romero", , "romeroamerica99@gmail.com", role = c("aut", "cre"))
-Description: I don't know what my package does yet!
+Description: My package does alot of funny little things (greeting based on time, calculates dog years, and plots a quick lm).
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
